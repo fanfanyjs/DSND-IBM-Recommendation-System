@@ -19,7 +19,7 @@ For each user, a list of similar users are chosen based on dot product. The user
 NLTK techniques are used to preprocess titles (e.g. tokenize, normalise, lemmatize) of the articles read by each user. Then, similar articles are identified based on dot product and are recommended to users.
 
 #### Matrix Factorization
-Last but not least, I also explored to optimise the number of latent features using Singular Vector Decomposition 
+Last but not least, I also optimised the number of latent features using Singular Vector Decomposition to predict the articles that will be subsequently read by each user.
 
 
 ## Dependencies
